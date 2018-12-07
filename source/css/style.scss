@@ -60,6 +60,17 @@ a.tag.article-tag {
         padding-top: 2rem;
         border-top: 1px solid $border-color;
     }
+    .article-thumbnail {
+        .gallery-item {
+            display: block;
+        }
+        .article-image {
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+            display: block;
+        }
+    }
 
     .article-title a,
     .article-meta a {
