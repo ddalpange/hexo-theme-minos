@@ -1,11 +1,20 @@
-$family-serif: "Ovo", "Georgia", "STZhongsong", "Microsoft YaHei", serif;
+$family-sans-serif: "Spoqa Han Sans", "Noto Sans Korean", "STZhongsong", "Microsoft YaHei", serif;
 $family-mono: "Source Code Pro", monospace, "Microsoft YaHei";
 $border-color: #dbdbdb;
 
-body, button, input, select, textarea {
-    font-family: $family-serif;
+body {
+    color: #454545;
+    line-height: 1.5em;
+    font-family: $family-sans-serif;
+    text-shadow: 0 0 0.1px rgba(0,0,0,.3);
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
+body, button, input, select, textarea {
+    font-family: $family-sans-serif;
+}
 
 a.tag.article-tag {
     font-size: 0.9rem;
