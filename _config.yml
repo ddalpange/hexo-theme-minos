@@ -1,0 +1,65 @@
+
+# Website's icon url.
+favicon: /favicon.ico
+
+# Open Graph metadata (https://hexo.io/docs/helpers.html#open-graph)
+open_graph:
+  twitter_id:
+  twitter_site:
+  google_plus:
+  fb_admins:
+  fb_app_id:
+
+# Website's logo shown on the left of the navigation bar.
+# It can either be an url to an image or a string if the following option is set.
+# logo:
+#   text: <logo string>
+logo:
+  text: 딸팽이
+
+article:
+  # Show word count and estimated reading time.
+  readtime: true
+  # Code highlight theme, please see https://highlightjs.org/static/demo/
+  highlight: obsidian
+
+# Navigation bar menu links.
+menu:
+  Home: /
+  Archives: /archives
+  About: /about
+  GitHub: https://github.com/ddalpange
+
+# Search plugin settings.
+search:
+  type: insight
+
+# Share plugin settings.
+share:
+  type: sharethis
+  install_url:
+
+# Comment plugin settings.
+comment:
+  type: disqus
+  shortname: https-ddalpange-github-com
+
+# Other plugins and their settings.
+plugins:
+  mathjax: true
+  gallery: true
+  google-analytics:
+    tracking_id:
+      tracking_id: UA-88902574-1
+      site_verification: googledfac8b467ded7e19
+
+# Additional navigation bar links on the right.
+# Links can either be text or icon. The following link is set to be an icon link whose icon
+# is set to the class name of a FontAwesome 5 icon. The `footer_links` below also gives an
+# example of setting plain text links.
+navbar_links:
+
+# Links at the bottom of the page.
+footer_links:
+  GitHub: https://github.com/ddalpange
+
