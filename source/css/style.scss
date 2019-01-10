@@ -642,7 +642,7 @@ figure.highlight {
         position: fixed;
         top: 60px;
         padding: 16px;
-        overflow: scroll;
+        overflow: auto;
         a {
             color: inherit;
             &:hover {
