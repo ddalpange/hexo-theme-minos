@@ -25,12 +25,10 @@ article:
 
 # Navigation bar menu links.
 menu:
-  Home: /
   Archives: /archives
   Categories: /categories
   Tags: /tags
   About: /about
-  GitHub: https://github.com/ddalpange
 
 # Search plugin settings.
 search:
@@ -61,6 +59,9 @@ plugins:
 # is set to the class name of a FontAwesome 5 icon. The `footer_links` below also gives an
 # example of setting plain text links.
 navbar_links:
+  Github:
+    url: https://github.com/ddalpange
+    icon: fab fa-github
 
 # Links at the bottom of the page.
 footer_links:

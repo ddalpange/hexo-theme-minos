@@ -4,8 +4,8 @@ $border-color: #dbdbdb;
 
 body {
     color: #4d5256;
-    line-height: 28px;
-    font-size: 15px;
+    line-height: 24px;
+    font-size: 14px;
     font-family: $family-sans-serif;
 }
 
@@ -640,7 +640,7 @@ figure.highlight {
 .aside-toc {
     .toc-wrapper {
         position: fixed;
-        top: 40px;
+        top: 60px;
         padding: 16px;
         overflow: scroll;
         a {
@@ -658,8 +658,8 @@ figure.highlight {
     text-rendering: auto;
     display: inline-block;
     width: 300px;
-    font-size: 0.75rem;
-    line-height: 1.4rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
     position: absolute;
     top: 0;
     right: -300px;
