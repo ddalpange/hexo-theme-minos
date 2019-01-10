@@ -1,5 +1,15 @@
 <section class="section">
     <div class="container">
-    <%- partial('common/article', { post: page, index: false }) %>
+        <%- partial('common/article', { post: page, index: false }) %>
+        <aside class="aside-toc">
+            <% if (toc(page.content)) { %>
+                <div class="toc-wrapper">
+                    <span><%= __('nav.toc') %></span>
+                    <p>
+                        <%- toc(page.content)%>
+                    </p>
+                </div>
+            <% }%>
+        </aside>
     </div>
 </section>

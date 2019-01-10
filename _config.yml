@@ -15,7 +15,7 @@ open_graph:
 # logo:
 #   text: <logo string>
 logo:
-  text: 딸팽이
+  text: DDalpange
 
 article:
   # Show word count and estimated reading time.
@@ -27,6 +27,8 @@ article:
 menu:
   Home: /
   Archives: /archives
+  Categories: /categories
+  Tags: /tags
   About: /about
   GitHub: https://github.com/ddalpange
 
