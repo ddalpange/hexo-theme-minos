@@ -20,12 +20,12 @@ a.tag.article-tag {
 
 @media screen and (min-width: 1024px) {
     .container {
-        max-width: 800px;
-        width: 800px;
+        max-width: 720px;
+        width: 720px;
     }
 
     .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
-        color: #3273dc;
+        color: #4c80f1;
     }
 }
 
@@ -43,7 +43,7 @@ a.tag.article-tag {
     }
 
     a.navbar-item.is-active {
-        color: #3273dc;
+        color: #4c80f1;
     }
 
     .toc .navbar-dropdown {
@@ -67,6 +67,9 @@ a.tag.article-tag {
             object-fit: cover;
             display: block;
         }
+    }
+    .article-title {
+        letter-spacing: -0.05em;
     }
 
     .article-title a,
@@ -113,6 +116,11 @@ a.tag.article-tag {
             -webkit-font-smoothing: antialiased;
             -webkit-text-size-adjust: antialiased;
             -moz-osx-font-smoothing: grayscale;
+        }
+        code {
+            background: none;
+            padding: 0;
+            color: #1bbf83;
         }
     }
 
@@ -422,7 +430,7 @@ a.tag.article-tag {
             display: inline-block;
 
             &:hover {
-                color: #3273dc;
+                color: #4c80f1;
             }
         }
     }
@@ -646,7 +654,7 @@ figure.highlight {
         a {
             color: inherit;
             &:hover {
-                color: #3273dc;
+                color: #4c80f1;
             }
         }
         ol {
